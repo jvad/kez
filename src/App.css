@@ -25,9 +25,9 @@
     #654ea3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
   width: 100%;
   height: 100%;
 }
@@ -65,8 +65,43 @@ hr {
   width: 10%;
   margin: auto;
 }
+
 .social-links i {
   color: rgb(71, 58, 247);
   padding-bottom: 10px;
   font-size: 5em;
+}
+
+@media (max-width: 600px) and (min-width: 300px) {
+  .img-logo {
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 50%;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  hr {
+    border-top: 3px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  .banner-text p {
+    color: white;
+    font-size: 15px;
+    padding: 0.5em;
+  }
+
+  .social-links {
+    width: 10%;
+    margin: auto;
+  }
+
+  .social-links i {
+    color: rgb(71, 58, 247);
+    padding-bottom: 5px;
+    font-size: 3em;
+  }
 }
