@@ -19,7 +19,7 @@ const LandigPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa fa-facebook-square" aria-hidden="true "></i>
+                <i className="fa fa-facebook-square" aria-hidden="true"></i>
               </a>
             </div>
           </div>
