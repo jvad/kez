@@ -3,7 +3,8 @@ import React from "react";
 const Gallery = () => {
   return (
     <div>
-      <h1>Galllery</h1>
+      <h1>Hello Every One</h1>
+      <p>this page is underconstruction</p>
     </div>
   );
 };
