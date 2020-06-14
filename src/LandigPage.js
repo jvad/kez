@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
-import Kex from "./Kex/kex1.jpg";
+import Kex from "./Kex/kex1.jpeg";
 
 const LandigPage = () => {
   return (
@@ -20,6 +20,13 @@ const LandigPage = () => {
                 rel="noopener noreferrer"
               >
                 <i className="fa fa-facebook-square" aria-hidden="true"></i>
+              </a>
+              <a
+                href="mailto:ahna.k16@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-envelope-o" aria-hidden="true"></i>
               </a>
             </div>
           </div>
