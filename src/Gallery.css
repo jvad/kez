@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .wrapper {
   background: #654ea3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -11,7 +14,8 @@
     #654ea3
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  box-sizing: border-box;
+
+  width: 100%;
 }
 .gallery {
   border: 1px solid black;
@@ -19,4 +23,21 @@
 .gallery img {
   width: 100%;
   height: auto;
+}
+.des {
+  color: black;
+  padding: 6px;
+}
+a {
+  text-decoration: none;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 100%;
+  }
 }

@@ -14,7 +14,7 @@ const Gallery = () => {
         <div className="gallery">
           <a href={Kex1} target="_blank" rel="noopener noreferrer">
             <img src={Kex1} alt="" />
-            <div className="des">Description</div>
+            <div className="des">Keziah Baguio Adorna</div>
           </a>
         </div>
       </div>
@@ -22,7 +22,7 @@ const Gallery = () => {
         <div className="gallery">
           <a href={Kex2} target="_blank" rel="noopener noreferrer">
             <img src={Kex2} alt="" />
-            <div className="des">Description</div>
+            <div className="des">Keziah Baguio Adorna</div>
           </a>
         </div>
       </div>
@@ -30,7 +30,7 @@ const Gallery = () => {
         <div className="gallery">
           <a href={Kex3} target="_blank" rel="noopener noreferrer">
             <img src={Kex3} alt="" />
-            <div className="des">Description</div>
+            <div className="des">Keziah Baguio Adorna</div>
           </a>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Gallery = () => {
         <div className="gallery">
           <a href={Kex4} target="_blank" rel="noopener noreferrer">
             <img src={Kex4} alt="" />
-            <div className="des">Description</div>
+            <div className="des">Keziah Baguio Adorna</div>
           </a>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Gallery = () => {
         <div className="gallery">
           <a href={Kex5} target="_blank" rel="noopener noreferrer">
             <img src={Kex5} alt="" />
-            <div className="des">Description</div>
+            <div className="des">Keziah Baguio Adorna</div>
           </a>
         </div>
       </div>
@@ -54,7 +54,7 @@ const Gallery = () => {
         <div className="gallery">
           <a href={Kex6} target="_blank" rel="noopener noreferrer">
             <img src={Kex6} alt="" />
-            <div className="des">Description</div>
+            <div className="des">Keziah Baguio Adorna</div>
           </a>
         </div>
       </div>

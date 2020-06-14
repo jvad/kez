@@ -14,7 +14,7 @@ function App() {
             title="KBA's Personal WebPage"
             scroll
           >
-            <Navigation>
+            <Navigation className="menu-links">
               <Link to="/">Home</Link>
               <Link to="/about">About Me</Link>
               <Link to="/gallery">Gallery</Link>
