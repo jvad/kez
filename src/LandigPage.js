@@ -21,6 +21,13 @@ const LandigPage = () => {
               >
                 <i className="fa fa-facebook-square" aria-hidden="true"></i>
               </a>
+              <a
+                href="mailto:ahna.k16@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa fa-envelope-o" aria-hidden="true"></i>
+              </a>
             </div>
           </div>
         </Cell>

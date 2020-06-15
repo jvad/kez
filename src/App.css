@@ -62,14 +62,17 @@ hr {
 }
 
 .social-links {
-  width: 10%;
+  width: 100%;
+  justify-content: space-around;
   margin: auto;
+  display: flex;
 }
 
 .social-links i {
   color: white;
   font-size: 5em;
   padding: 10px;
+
   /* margin-right: 10px; */
   width: 100%;
 }
@@ -137,11 +140,6 @@ hr {
     color: white;
     font-size: 15px;
     padding: 0.5em;
-  }
-
-  .social-links {
-    width: 10%;
-    margin: auto;
   }
 
   .social-links i {
