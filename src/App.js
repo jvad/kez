@@ -16,17 +16,15 @@ function App() {
           >
             <Navigation className="menu-links">
               <Link to="/">Home</Link>
-              <Link to="/about">About Me</Link>
               <Link to="/gallery">Gallery</Link>
               <Link to="/contact">Contact Me</Link>
             </Navigation>
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <Link to="/about">About Me</Link>
+              <Link to="/">Home</Link>
               <Link to="/gallery">Gallery</Link>
               <Link to="/contact">Contact Me</Link>
-              <Link to="/">Home</Link>
             </Navigation>
           </Drawer>
           <Content>
