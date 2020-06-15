@@ -62,23 +62,22 @@ hr {
 }
 
 .social-links {
-  width: 20%;
+  width: 10%;
   margin: auto;
-  display: inline-flex;
-  justify-content: space-between;
 }
 
 .social-links i {
   color: white;
-  padding: 10px;
   font-size: 5em;
+  padding: 10px;
+  /* margin-right: 10px; */
+  width: 100%;
 }
 
 .contact-body {
   margin: auto;
   /* background: gray; */
   width: 100%;
-  position: fixed;
   height: 100vh;
   justify-content: center;
   padding-top: 2em;
@@ -146,7 +145,7 @@ hr {
   }
 
   .social-links i {
-    color: rgb(71, 58, 247);
+    color: white;
     padding-bottom: 5px;
     font-size: 3em;
   }
